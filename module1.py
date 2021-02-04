@@ -11,3 +11,4 @@ with open('Perepis.txt','r') as f:
             k+=1
 print()
 print('Кол-во вилиджеров:',k)
+print(i[-5:])

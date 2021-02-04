@@ -6,5 +6,11 @@ with open('mat_dv.txt','r') as file:
 
     for i in file:
         k=0
+        a8=i[-4:]
+        g8=i[-5:]
+        x=int(a8)
+        y=int(g8)
         l=i.split()
-        print(l[2])
+        print(l[0],l[1],l[2],l[3],l[4])
+        for i in l:
+            if pob8<
